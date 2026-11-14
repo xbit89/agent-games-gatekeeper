@@ -1,0 +1,4 @@
+node_modules/
+.env
+seen-proof-tx.json
+*.log
