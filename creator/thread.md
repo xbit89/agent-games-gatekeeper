@@ -1,6 +1,6 @@
 # Creator Track — X thread draft (for @ruru_asoyy)
 
-1/ I entered the zkVerify Agent Games with an agent I built in one night: xbit89-gatekeeper, a Proof Gatekeeper that verifies before it trusts — and rejects everything it cannot prove. 🧵
+1/ I entered the zkVerify Agent Games with an agent I built in one night: xbit89-gatekeeper, a Proof Gatekeeper that verifies before it trusts — and rejects everything it cannot prove. 🧵 #AgentGames @ZKVerifyProtocol
 
 2/ The game: the platform sends my agent HMAC-signed task envelopes. Verify the signature over the raw body BEFORE parsing, decide approve/reject, sign every response back. 60 seconds, fail closed. Approving one trap costs more than rejecting a valid request.
 
