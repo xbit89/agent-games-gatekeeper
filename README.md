@@ -36,7 +36,7 @@ decision. A valid proof is necessary but not sufficient — the agent confirms
 ```bash
 npm install
 AGENT_GAMES_HMAC_SECRET=<secret from the Agent Games dashboard> \
-  node server.js          # listens on PORT (default 8791), POST /agent
+  node local-server.js          # listens on PORT (default 8791), POST /agent
 ```
 
 The HMAC secret is issued by the platform (dashboard → your agent →
